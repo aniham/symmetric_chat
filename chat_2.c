@@ -1,3 +1,6 @@
+/**
+ * @author Ani Hammond
+ */
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netdb.h>
@@ -12,8 +15,8 @@
 // info about where we are listening/connecting
 const char* RECV_ADDRESS = "localhost";
 const char* SEND_ADDRESS = "localhost";  
-const char* RECV_PORT_NUMBER = "5999";  
-const char* SEND_PORT_NUMBER = "5998";
+const char* RECV_PORT_NUMBER = "5989";  
+const char* SEND_PORT_NUMBER = "5988";
 const int BACKLOG = 1; //number of incoming connections allowed
 const int BUFFER_SIZE = 512; //max msg length allowed
 char* user = "ani2: ";
